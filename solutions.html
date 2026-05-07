@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方案 - Chemicat</title>
+    <meta name="description" content="Chemicat 方案 - 大学化学与化学原理背词方案。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="photo/icon.png" alt="Chemicat 图标" class="logo-img">
+            Chemicat
+        </a>
+        <nav>
+            <a href="index.html">主页</a>
+            <a class="active" href="solutions.html">方案</a>
+            <a href="cats.html">猫猫图鉴</a>
+            <a href="about.html">关于</a>
+            <a href="https://chemicat.vercel.app" class="btn-download">立即体验</a>
+        </nav>
+    </header>
+
+    <main class="subpage">
+        <section class="page-hero">
+            <h1 class="animate">选择您的学习方案</h1>
+            <p class="animate delay-1">针对不同的学习阶段，我们为您准备了两种精心设计的化学背词方案。</p>
+        </section>
+
+        <section class="solutions-grid animate delay-2">
+            <!-- 大学化学 -->
+            <div class="plan-card">
+                <div class="plan-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <h2>大学化学</h2>
+                <p class="plan-desc">适合专业方向与化学无关的同学，3学分</p>
+                <div class="plan-price">基础版</div>
+                <div class="plan-price-sub">涵盖所有核心通识词条</div>
+                <a href="https://chemicat.vercel.app" class="btn-plan">立即开始</a>
+                <ul class="plan-features">
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 基础化学物质</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 原子与分子结构</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 简单的化学平衡</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 基础热力学概念</li>
+                </ul>
+            </div>
+
+            <!-- 化学原理 -->
+            <div class="plan-card">
+                <div class="plan-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="2" y1="12" x2="22" y2="12" />
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
+                </div>
+                <h2>化学原理</h2>
+                <p class="plan-desc">适合专业方向与化学相关的同学，4学分</p>
+                <div class="plan-price">进阶版</div>
+                <div class="plan-price-sub">相较大学化学增加了几个章节的内容</div>
+                <a href="https://chemicat.vercel.app" class="btn-plan">立即开始</a>
+                <ul class="plan-features">
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 分子的几何构型</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 化学键及价键理论</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 电化学</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg> 大学化学的所有内容</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

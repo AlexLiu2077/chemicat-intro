@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫猫图鉴 - Chemicat</title>
+    <meta name="description" content="Chemicat 猫猫图鉴 - 查看所有学习搭子、皮肤与亲密度成长故事。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="photo/icon.png" alt="Chemicat 图标" class="logo-img">
+            Chemicat
+        </a>
+        <nav>
+            <a href="index.html">主页</a>
+            <a href="solutions.html">方案</a>
+            <a class="active" href="cats.html">猫猫图鉴</a>
+            <a href="about.html">关于</a>
+            <a href="https://chemicat.vercel.app" class="btn-download">立即体验</a>
+        </nav>
+    </header>
+
+    <main class="subpage">
+        <section class="page-hero">
+            <h1 class="animate">猫猫图鉴</h1>
+            <p class="animate delay-1">Chemicat 为您提供了三种可选的猫猫，每一只猫都有专属皮肤</p>
+        </section>
+
+        <section class="split-layout">
+            <aside class="sidebar">
+                <nav>
+                    <a href="#cat-1">🟠 小橘子</a>
+                    <a href="#cat-2">⬜ 小泡芙</a>
+                    <a href="#cat-3">⬛ 小煤球</a>
+                </nav>
+            </aside>
+
+            <div class="content-stack">
+                <article class="content-card" id="cat-1">
+                    <h2><span class="chapter-label">01</span> 小橘子</h2>
+                    <p class="skin-label">左：初始皮肤 ／ 右：「化学实验」皮肤</p>
+                    <div class="cat-gallery">
+                        <img src="catphoto/orange_1.jpg" alt="橘猫图鉴 1">
+                        <img src="catphoto/orange_2.jpg" alt="橘猫图鉴 2">
+                    </div>
+                    <div class="cat-info">
+                        <div class="cat-info-item"><span class="label">品种</span>中华田园橘猫</div>
+                        <div class="cat-info-item"><span class="label">性格</span>极度好奇，对周围的一切都充满探索欲，特别是对未知的事物。</div>
+                        <div class="cat-info-item"><span class="label">爱好</span>钻箱子，爬高处，收集各种闪闪发亮的小东西</div>
+                        <div class="cat-info-item"><span
+                                class="label">皮肤来历</span>在一次偶然的机会下，小橘子潜入了一个神秘的科学实验室。被那些五颜六色的液体和奇形怪状的仪器所吸引，它决定展开一场关于"化学"的好奇心大冒险。
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content-card" id="cat-2">
+                    <h2><span class="chapter-label">02</span> 小泡芙</h2>
+                    <p class="skin-label">左：初始皮肤 ／ 右：「稀有气体」皮肤</p>
+                    <div class="cat-gallery">
+                        <img src="catphoto/white_1.jpg" alt="白猫图鉴 1">
+                        <img src="catphoto/white_2.jpg" alt="白猫图鉴 2">
+                    </div>
+                    <div class="cat-info">
+                        <div class="cat-info-item"><span class="label">品种</span>波斯猫</div>
+                        <div class="cat-info-item"><span class="label">性格</span>温顺可爱，安静细腻，在主人最疲惫时轻跳上膝头。</div>
+                        <div class="cat-info-item"><span class="label">爱好</span>晒太阳，玩毛线球，被抱着时会发出呼噜声</div>
+                        <div class="cat-info-item"><span
+                                class="label">皮肤来历</span>小泡芙打翻了几个霓虹灯管，这些神秘的气体让它学会了光的魔法，现在它是个闪闪发光的小猫咪！</div>
+                    </div>
+                </article>
+
+                <article class="content-card" id="cat-3">
+                    <h2><span class="chapter-label">03</span> 小煤球</h2>
+                    <p class="skin-label">左：初始皮肤 ／ 右：「炼金术士」皮肤</p>
+                    <div class="cat-gallery">
+                        <img src="catphoto/black_1.jpg" alt="黑猫图鉴 1">
+                        <img src="catphoto/black_2.jpg" alt="黑猫图鉴 2">
+                    </div>
+                    <div class="cat-info">
+                        <div class="cat-info-item"><span class="label">品种</span>孟买猫</div>
+                        <div class="cat-info-item"><span class="label">性格</span>它仿佛永远处于过载状态，精力极度充沛，耐心极低。</div>
+                        <div class="cat-info-item"><span class="label">爱好</span>喜欢在高速奔跑中撞翻一切障碍物，实验室是重灾区。</div>
+                        <div class="cat-info-item"><span
+                                class="label">皮肤来历</span>相比于普通的实验，它更喜欢充满挑战和刺激的炼金术实验，这也是唯一能让它安静下来的学科。</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
