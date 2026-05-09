@@ -490,6 +490,45 @@ main.subpage {
   color: #555;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-center .about-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center h2 {
+  justify-content: center;
+}
+
+.thanks-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+.thanks-list span {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.contact-email {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  transition: var(--transition);
+}
+
+.contact-email:hover {
+  border-bottom-color: #000;
+}
+
 /* ============================================================
    ANIMATIONS
    ============================================================ */
